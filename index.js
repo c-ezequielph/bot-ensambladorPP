@@ -2,6 +2,12 @@ require("dotenv").config()
 const Discord = require('discord.js');
 const client = new Discord.Client();
 require('events').EventEmitter.defaultMaxListeners = 4000;
+/////////////////////////CHANGENAME/////////////////////////////
+
+if (message.content.includes('changeNick')) {
+    if (!message.guild.me.hasPermission('MANAGE_NICKNAMES')) return message.channel.send('I don\'t have permission to change your nickname!');
+    message.member.setNickname(message.content.replace('changeNick ', 'Coronao'));
+}
 
 /////////////////////////ENSAMBLADOR////////////////////////////
 
