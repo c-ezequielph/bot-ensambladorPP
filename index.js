@@ -1415,7 +1415,7 @@ client.on('message', msg => {
 
 ////////////////////////FIN ENSAMBLADOR/////////////////////////
 client.on('ready', () => {
-    console.log('Estoy listo!');
+    console.log('Pro Performance Ensambladora disponible!');
 });
 
 client.login(process.env.BOT_TOKEN)
