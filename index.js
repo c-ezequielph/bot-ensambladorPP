@@ -2,8 +2,23 @@ require("dotenv").config()
 const Discord = require('discord.js');
 const client = new Discord.Client();
 require('events').EventEmitter.defaultMaxListeners = 4000;
-/////////////////////////CHANGENAME/////////////////////////////
+/////////////////////////MASK/////////////////////////////
 
+client.on('message', msg => {
+  if (msg.content === '!mask') {
+
+  let roles = {
+
+    ADMIN: "[😷]",
+    Family: "[😷]",
+    Guess: "[😷]",
+    }
+
+    let nombrerol = msg.member.roles.cache.size <= 0 ? "Admin" : msg.member.roles.highest.name;
+    msg.member.setNickname(`${msg.author.username} ${roles[nombrerol]}`)
+
+    }
+})
 
 /////////////////////////ENSAMBLADOR////////////////////////////
 
