@@ -11,6 +11,7 @@ client.on('message', msg => {
 
     ADMIN: "[😷]",
     Family: "[😷]",
+    Staff: "[😷]",
     Guess: "[😷]",
     }
 
