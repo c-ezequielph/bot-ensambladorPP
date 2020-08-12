@@ -1264,6 +1264,10 @@ client.on('message', msg => {
   if (msg.content === '!landstalker') {
     msg.reply('⚙️ Landstalker ($19.000) ⚙️\n\t\t\t7000 Hierro - 2333 Plastico - 1750 Vídrio');
   }
+  
+  if (msg.content === '!landstalker2') {
+    msg.reply('⚙️ Landstalker 2 ($25.000) ⚙️\n\t\t\t6500 Hierro - 2167 Plastico - 1625 Vídrio');
+  }
 
   if (msg.content === '!mesa') {
     msg.reply('⚙️ Mesa ($35.000) ⚙️\n\t\t\t6000 Hierro - 2000 Plastico - 1500 Vídrio');
