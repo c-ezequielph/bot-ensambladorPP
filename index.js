@@ -381,7 +381,7 @@ client.on('message', msg => {
   }
 
   if (msg.content === '!felon2') {
-    msg.reply('⚙️ Felon 2 ($35.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
+    msg.reply('⚙️ Felon 2 ($35.000) ⚙️\n\t\t\t2500 Hierro - 2500 Plastico - 2500 Vídrio');
   }
 
   if (msg.content === '!f620') {
