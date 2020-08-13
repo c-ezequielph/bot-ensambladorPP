@@ -533,15 +533,15 @@ client.on('message', msg => {
   }
 
   if (msg.content === '!ruiner') {
-    msg.reply('⚙️ Ruiner ($11.000) ⚙️\n\t\t\t3000 Hierro - 1500 Plastico - 1500 Vídrio');
+    msg.reply('⚙️ Ruiner ($11.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
   }
 
   if (msg.content === '!ruiner2') {
-    msg.reply('⚙️ Ruiner 2 ($12.000) ⚙️\n\t\t\t2500 Hierro - 1250 Plastico - 1250 Vídrio');
+    msg.reply('⚙️ Ruiner 2 ($12.000) ⚙️\n\t\t\t2500 Hierro - 2500 Plastico - 2500 Vídrio');
   }
 
   if (msg.content === '!ruiner3') {
-    msg.reply('⚙️ Ruiner 3 ($1.000) ⚙️\n\t\t\t2500 Hierro - 1250 Plastico - 1250 Vídrio');
+    msg.reply('⚙️ Ruiner 3 ($1.000) ⚙️\n\t\t\t2500 Hierro - 2500 Plastico - 2500 Vídrio');
   }
 
   if (msg.content === '!sabregt') {
@@ -553,47 +553,75 @@ client.on('message', msg => {
   }
 
   if (msg.content === '!slamvan') {
-    msg.reply('⚙️ Slamvan ($11.000) ⚙️\n\t\t\t2500 Hierro - 1250 Plastico - 1250 Vídrio');
+    msg.reply('⚙️ Slamvan ($11.000) ⚙️\n\t\t\t2500 Hierro - 2500 Plastico - 2500 Vídrio');
   }
 
   if (msg.content === '!slamvan2') {
-    msg.reply('⚙️ Slamvan 2 ($13.000) ⚙️\n\t\t\t3000 Hierro - 1500 Plastico - 1500 Vídrio');
+    msg.reply('⚙️ Slamvan 2 ($13.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
   }
 
   if (msg.content === '!slamvan3') {
-    msg.reply('⚙️ Slamvan 3 ($14.000) ⚙️\n\t\t\t2500 Hierro - 1250 Plastico - 1250 Vídrio');
+    msg.reply('⚙️ Slamvan 3 ($14.000) ⚙️\n\t\t\t2500 Hierro - 2500 Plastico - 2500 Vídrio');
   }
 
   if (msg.content === '!slamvan4') {
-    msg.reply('⚙️ Slamvan 4 ($12.000) ⚙️\n\t\t\t3000 Hierro - 1500 Plastico - 1500 Vídrio');
+    msg.reply('⚙️ Slamvan 4 ($12.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
   }
 
   if (msg.content === '!slamvan5') {
-    msg.reply('⚙️ Slamvan5 ($11.000) ⚙️\n\t\t\t2750 Hierro - 1375 Plastico - 1375 Vídrio');
+    msg.reply('⚙️ Slamvan5 ($11.000) ⚙️\n\t\t\t2750 Hierro - 2750 Plastico - 2750 Vídrio');
   }
 
   if (msg.content === '!stallion') {
-    msg.reply('⚙️ Stallion ($12.000) ⚙️\n\t\t\t3000 Hierro - 1500 Plastico - 1500 Vídrio');
+    msg.reply('⚙️ Stallion ($12.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
   }
 
   if (msg.content === '!stallion2') {
-    msg.reply('⚙️ Stallion 2 ($14.000) ⚙️\n\t\t\t3000 Hierro - 1500 Plastico - 1500 Vídrio');
+    msg.reply('⚙️ Stallion 2 ($14.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
   }
 
   if (msg.content === '!tampa') {
-    msg.reply('⚙️ Tampa ($14.000) ⚙️\n\t\t\t3000 Hierro - 1500 Plastico - 1500 Vídrio');
+    msg.reply('⚙️ Tampa ($14.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
   }
 
   if (msg.content === '!tampa2') {
-    msg.reply('⚙️ Tampa 2 ($110.000) ⚙️\n\t\t\t3000 Hierro - 1500 Plastico - 1500 Vídrio');
+    msg.reply('⚙️ Tampa 2 ($110.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
   }
 
   if (msg.content === '!tulip') {
-    msg.reply('⚙️ Tulip ($12.000) ⚙️\n\t\t\t3000 Hierro - 1500 Plastico - 1500 Vídrio');
+    msg.reply('⚙️ Tulip ($12.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
   }
 
   if (msg.content === '!vamos') {
-    msg.reply('⚙️ Vamos ($12.000) ⚙️\n\t\t\t3000 Hierro - 1500 Plastico - 1500 Vídrio');
+    msg.reply('⚙️ Vamos ($12.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
+  }
+  
+  if (msg.content === '!vigero') {
+    msg.reply('⚙️ Vigero ($13.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
+  }
+  
+  if (msg.content === '!virgo') {
+    msg.reply('⚙️ Virgo ($12.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
+  }
+  
+  if (msg.content === '!virgo2') {
+    msg.reply('⚙️ Virgo 2 ($12.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
+  }
+  
+  if (msg.content === '!virgo3') {
+    msg.reply('⚙️ Virgo 3 ($12.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
+  }
+  
+  if (msg.content === '!voodoo') {
+    msg.reply('⚙️ Voodoo ($12.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
+  }
+  
+  if (msg.content === '!voodoo2') {
+    msg.reply('⚙️ Voodoo 2 ($12.000) ⚙️\n\t\t\t3000 Hierro - 3000 Plastico - 3000 Vídrio');
+  }
+  
+  if (msg.content === '!yosemite') {
+    msg.reply('⚙️ Yosemite ($12.000) ⚙️\n\t\t\t2500 Hierro - 2500 Plastico - 2500 Vídrio');
   }
 });
 
@@ -868,9 +896,6 @@ client.on('message', msg => {
     msg.reply('⚙️ Tornado 5 ($10.000) ⚙️\n\t\t\t4500 Hierro - 1500 Plastico - 1125 Vídrio');
   }
 
-  if (msg.content === '!viseris') {
-    msg.reply('⚙️ Viseris ($190.000) ⚙️\n\t\t\t3500 Hierro - 1167 Plastico - 700 Vídrio');
-  }
 });
 
 //SUPERDEPORTIVO
