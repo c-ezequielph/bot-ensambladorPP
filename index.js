@@ -223,6 +223,10 @@ client.on('message', msg => {
   if (msg.content === '!glendale') {
     msg.reply('⚙️ Glendale ($10.000) ⚙️\n\t\t\t200 Hierro - 120 Plastico - 100 Vídrio');
   }
+  
+  if (msg.content === '!glendale2') {
+    msg.reply('⚙️ Glendale 2 ($10.000) ⚙️\n\t\t\t200 Hierro - 120 Plastico - 100 Vídrio');
+  }
 
   if (msg.content === '!ingot') {
     msg.reply('⚙️ Ingot ($11.000) ⚙️\n\t\t\t200 Hierro - 120 Plastico - 100 Vídrio');
@@ -330,6 +334,10 @@ client.on('message', msg => {
 
   if (msg.content === '!rhapsody') {
     msg.reply('⚙️ Rhapsody ($11.000) ⚙️\n\t\t\t292 Hierro - 100 Plastico - 70 Vídrio');
+  }
+  
+  if (msg.content === '!club') {
+    msg.reply('⚙️ Club ($20.000) ⚙️\n\t\t\t208 Hierro - 71 Plastico - 50 Vídrio');
   }
 });
 
@@ -671,6 +679,10 @@ client.on('message', msg => {
   if (msg.content === '!jester2') {
     msg.reply('⚙️ Jester 2 ($80.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
   }
+  
+  if (msg.content === '!jester3') {
+    msg.reply('⚙️ Jester 3 ($80.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
+  }
 
   if (msg.content === '!jugular') {
     msg.reply('⚙️ Jugular ($65.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
@@ -714,6 +726,10 @@ client.on('message', msg => {
 
   if (msg.content === '!penumbra') {
     msg.reply('⚙️ Penumbra ($56.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
+  }
+  
+  if (msg.content === '!penumbra2') {
+    msg.reply('⚙️ Penumbra 2 ($60.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
   }
 
   if (msg.content === '!raiden') {
@@ -1139,6 +1155,10 @@ client.on('message', msg => {
   if (msg.content === '!youga2') {
     msg.reply('⚙️ Youga 2 ($18.000) ⚙️\n\t\t\t6000 Hierro - 2000 Plastico - 1500 Vídrio');
   }
+  
+  if (msg.content === '!youga3') {
+    msg.reply('⚙️ Youga 3 ($20.000) ⚙️\n\t\t\t6000 Hierro - 2000 Plastico - 1500 Vídrio');
+  }
 });
 
 //COMERCIALES
@@ -1291,6 +1311,10 @@ client.on('message', msg => {
 
   if (msg.content === '!seminole') {
     msg.reply('⚙️ Seminole ($19.000) ⚙️\n\t\t\t6000 Hierro - 2000 Plastico - 1500 Vídrio');
+  }
+  
+  if (msg.content === '!seminole2') {
+    msg.reply('⚙️ Seminole 2 ($30.000) ⚙️\n\t\t\t6000 Hierro - 2000 Plastico - 1500 Vídrio');
   }
   
   if (msg.content === '!serrano') {
