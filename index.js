@@ -16,7 +16,7 @@ client.on('message', msg => {
     }
 
     let nombrerol = msg.member.roles.cache.size <= 0 ? "Admin" : msg.member.roles.highest.name;
-    msg.member.setNickname(`${msg.author.username} ${roles[nombrerol]}`))
+    msg.member.setNickname(`${msg.author.username} ${roles[nombrerol]}`)
    
     }
 })
