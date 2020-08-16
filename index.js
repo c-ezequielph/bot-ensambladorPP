@@ -1406,7 +1406,7 @@ client.on('message', msg => {
     msg.reply('⚙️ Grúa Grande ($56.000) ⚙️\n\t\t\t5000 Hierro - 1667 Plastico - 1250 Vídrio');
   }
 
-  if (msg.content === '!gruagrande') {
+  if (msg.content === '!gruapequeña') {
     msg.reply('⚙️ Grúa Pequeña ($35.000) ⚙️\n\t\t\t4500 Hierro - 1500 Plastico - 1125 Vídrio');
   }
 });
