@@ -21,6 +21,23 @@ client.on('message', msg => {
     }
 })
 
+client.on('message', msg => {
+  if (msg.content === '!desmask') {
+
+  let roles = {
+
+    ADMIN: "[😷]",
+    Family: "[😷]",
+    Staff: "[😷]",
+    Guess: "[😷]",
+    }
+
+    let nombrerol = msg.member.roles.cache.size <= 0 ? "Admin" : msg.member.roles.highest.name;
+    msg.member.setNickname(`${msg.author.username}`)
+   
+    }
+})
+
 /////////////////////////ENSAMBLADOR////////////////////////////
 
 //LLANTAS Y PUERTAS
