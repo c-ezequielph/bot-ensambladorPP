@@ -1226,7 +1226,7 @@ client.on('message', msg => {
     msg.reply('⚙️ Mule ($70.000) ⚙️\n\t\t\t8500 Hierro - 2833 Plastico - 2125 Vídrio');
   }
 
-  if (msg.content === '!mule3') {
+  if (msg.content === '!mule2') {
     msg.reply('⚙️ Mule 2 ($70.000) ⚙️\n\t\t\t7500 Hierro - 2500 Plastico - 1875 Vídrio');
   }
 
