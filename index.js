@@ -198,7 +198,7 @@ client.on('message', msg => {
   }
 });
 
-//SEDAN
+//SEDAN//
 
 client.on('message', msg => {
   if (msg.content === '!asea') {
