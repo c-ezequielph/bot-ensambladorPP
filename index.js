@@ -828,6 +828,11 @@ client.on('message', msg => {
   if (msg.content === '!verlierer2') {
     msg.reply('⚙️ Verlierer 2 ($250.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
   }
+  
+  if (msg.content === '!specter') {
+    msg.reply('⚙️ Specter ($320.000) ⚙️\n\t\t\t6500 Hierro - 4334 Plastico - 3250 Vídrio');
+  }
+  
 });
 
 //DEPORTIVOS CLÁSICOS
@@ -981,6 +986,23 @@ client.on('message', msg => {
   if (msg.content === '!zentorno') {
     msg.reply('⚙️ Zentorno ($1.300.000) ⚙️\n\t\t\t20000 Hierro - 10000 Plastico - 6666 Vídrio');
   }
+  
+   if (msg.content === '!entityxf') {
+    msg.reply('⚙️ Entity XF ($2.700.000) ⚙️\n\t\t\t20000 Hierro - 10000 Plastico - 6666 Vídrio');
+  }
+  
+   if (msg.content === '!penetrator') {
+    msg.reply('⚙️ Penetrator ($2.100.000) ⚙️\n\t\t\t22000 Hierro - 11000 Plastico - 7334 Vídrio');
+  }
+  
+   if (msg.content === '!tyrus') {
+    msg.reply('⚙️ Tyrus ($3.100.000) ⚙️\n\t\t\t22000 Hierro - 11000 Plastico - 7334 Vídrio');
+  }
+  
+   if (msg.content === '!voltic') {
+    msg.reply('⚙️ Voltic ($500.000) ⚙️\n\t\t\t21000 Hierro - 10500 Plastico - 7000 Vídrio');
+  }
+  
 });
 
 //OFF-ROAD
@@ -1253,6 +1275,11 @@ client.on('message', msg => {
   if (msg.content === '!pounder') {
     msg.reply('⚙️ Pounder ($85.000) ⚙️\n\t\t\t10000 Hierro - 3333 Plastico - 2500 Vídrio');
   }
+  
+  if (msg.content === '!stockade3') {
+    msg.reply('⚙️ Stockade 3 ($60.000) ⚙️\n\t\t\t8000 Hierro - 2667 Plastico - 2000 Vídrio');
+  }
+  
 });
 
 
@@ -1273,6 +1300,10 @@ client.on('message', msg => {
 
   if (msg.content === '!baller4') {
     msg.reply('⚙️ Baller 4 ($92.000) ⚙️\n\t\t\t6500 Hierro - 2167 Plastico - 1300 Vídrio');
+  }
+  
+  if (msg.content === '!baller5') {
+    msg.reply('⚙️ Baller 5 ($86.000) ⚙️\n\t\t\t7000 Hierro - 2333 Plastico - 1750 Vídrio');
   }
 
   if (msg.content === '!bjxl') {
