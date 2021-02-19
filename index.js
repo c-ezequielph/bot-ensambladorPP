@@ -61,7 +61,7 @@ module.exports = async (client, message, args, anuncios) => { //exportamos para 
         msg.delete();
       }, 5000)
     })
-  ]];
+  }};
 /////////////////////////ENSAMBLADOR////////////////////////////
 
 //LLANTAS Y PUERTAS
