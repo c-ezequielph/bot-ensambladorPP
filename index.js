@@ -47,8 +47,9 @@ module.exports = async (client, message, args, anuncios) => { //exportamos para 
   let autor = `${message.author}` //definimos el autor
   
 
-  if(!perms) return message.channel.send(`${message.author}`+' **no tienes permisos para hacer esto! Permiso faltante:** ``MANAGE_GUILD``'); //si no tienen permisos
-  if(!anuncio) return message.channel.send(`${message.author}`+' **debes de escribir un anuncio!**') //si no han escrito el anuncio
+  
+  if (msg.content === '!perms') return message.channel.send(`${message.author}`+' **no tienes permisos para hacer esto! Permiso faltante:** ``MANAGE_GUILD``'); //si no tienen permisos
+  if (msg.content === '!anuncio') return message.channel.send(`${message.author}`+' **debes de escribir un anuncio!**') //si no han escrito el anuncio
   const embed = new Discord.MessageEmbed() //Creamos el embed, customizable a su gusto
     .setTitle('Anuncios')
     .setDescription(anuncio)
