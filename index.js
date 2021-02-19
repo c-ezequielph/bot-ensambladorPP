@@ -47,22 +47,21 @@ module.exports = async (client, message, args, anuncios) => { //exportamos para 
   let autor = `${message.author}` //definimos el autor
   
 
-  
-  if (msg.content === '!perms') return message.channel.send(`${message.author}`+' **no tienes permisos para hacer esto! Permiso faltante:** ``MANAGE_GUILD``'); //si no tienen permisos
-  if (msg.content === '!anuncio') return message.channel.send(`${message.author}`+' **debes de escribir un anuncio!**') //si no han escrito el anuncio
-  const embed = new Discord.MessageEmbed() //Creamos el embed, customizable a su gusto
-    .setTitle('Anuncios')
-    .setDescription(anuncio)
-    .addField('Anuncio por:', `${message.author}`)
-    .setColor('#00ff11')
-  client.channels.resolve('746951842071576597').send(embed);// colocamos la id del canal del anuncio
-  message.channel.send(`${message.author}`+' **listo, ya di el anuncio!**').then(async(msg) => {
-    setTimeout(() => {
-      msg.delete();
-    }, 5000)
-  })
-}
-
+  client.on('message', msg => {
+    if (msg.content === '!perms') return message.channel.send(`${message.author}`+' **no tienes permisos para hacer esto! Permiso faltante:** ``MANAGE_GUILD``'); //si no tienen permisos
+    if (msg.content === '!anuncio') return message.channel.send(`${message.author}`+' **debes de escribir un anuncio!**') //si no han escrito el anuncio
+    const embed = new Discord.MessageEmbed() //Creamos el embed, customizable a su gusto
+      .setTitle('Anuncios')
+      .setDescription(anuncio)
+      .addField('Anuncio por:', `${message.author}`)
+      .setColor('#00ff11')
+    client.channels.resolve('746951842071576597').send(embed);// colocamos la id del canal del anuncio
+    message.channel.send(`${message.author}`+' **listo, ya di el anuncio!**').then(async(msg) => {
+      setTimeout(() => {
+        msg.delete();
+      }, 5000)
+    })
+  ]];
 /////////////////////////ENSAMBLADOR////////////////////////////
 
 //LLANTAS Y PUERTAS
