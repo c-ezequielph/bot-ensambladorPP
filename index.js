@@ -41,11 +41,12 @@ client.on('message', msg => {
 ////////////////////////ANUNCIOS//////////////////////////////
 
 client.on('message', msg => {
-  if (msg.content === '!anuncio') {
+  if (msg.content === "!anuncio") {
     const embed = new MessageEmbed()
     .setTitle(" ANUNCIO ")
+    .setAuthor(msg.member.displayName, msg.author.displayAvatarURL());
     .setColor(0x002C5E);
-    message.channel.send(embed);
+    msg.channel.send(embed);
   }
 });
     
