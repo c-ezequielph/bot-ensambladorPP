@@ -40,14 +40,7 @@ client.on('message', msg => {
 
 ////////////////////////ANUNCIOS//////////////////////////////
 
-client.on('message', msg => {
-  if (msg.content === "!anuncio") {
-    const embed = new MessageEmbed()
-    .setTitle(" ANUNCIO ")
-    .setColor(0x002C5E);
-    msg.channel.send(embed);
-  }
-});
+
     
 /////////////////////////ENSAMBLADOR////////////////////////////
 
