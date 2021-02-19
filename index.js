@@ -44,7 +44,6 @@ client.on('message', msg => {
   if (msg.content === "!anuncio") {
     const embed = new MessageEmbed()
     .setTitle(" ANUNCIO ")
-    .setAuthor(msg.member.displayName, msg.author.displayAvatarURL());
     .setColor(0x002C5E);
     msg.channel.send(embed);
   }
