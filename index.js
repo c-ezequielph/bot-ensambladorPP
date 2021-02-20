@@ -2,6 +2,7 @@ require("dotenv").config()
 const Discord = require('discord.js');
 const client = new Discord.Client();
 require('events').EventEmitter.defaultMaxListeners = 4000;
+const config = require("./config.json");
 
 ////////////////////////ANUNCIOS//////////////////////////////
 
