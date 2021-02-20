@@ -2,41 +2,6 @@ require("dotenv").config()
 const Discord = require('discord.js');
 const client = new Discord.Client();
 require('events').EventEmitter.defaultMaxListeners = 4000;
-/////////////////////////MASK/////////////////////////////
-
-client.on('message', msg => {
-  if (msg.content === '!mask') {
-
-  let roles = {
-
-    ADMIN: "[😷]",
-    Family: "[😷]",
-    Staff: "[😷]",
-    Guess: "[😷]",
-    }
-
-    let nombrerol = msg.member.roles.cache.size <= 0 ? "Admin" : msg.member.roles.highest.name;
-    msg.member.setNickname(`${msg.author.username} ${roles[nombrerol]}`)
-   
-    }
-})
-
-client.on('message', msg => {
-  if (msg.content === '!desmask') {
-
-  let roles = {
-
-    ADMIN: "[😷]",
-    Family: "[😷]",
-    Staff: "[😷]",
-    Guess: "[😷]",
-    }
-
-    let nombrerol = msg.member.roles.cache.size <= 0 ? "Admin" : msg.member.roles.highest.name;
-    msg.member.setNickname(`${msg.author.username}`)
-   
-    }
-})
 
 ////////////////////////ANUNCIOS//////////////////////////////
 
