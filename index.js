@@ -6,22 +6,6 @@ const config = require("./config.json");
 
 ////////////////////////ANUNCIOS//////////////////////////////
 
- client.on('message', (message) => {
-
-  if (!message.content.startsWith(prefix)) return; 
-  if (message.author.bot) return;
-
-  const embedDatos = new Discord.MessageEmbed() 
-  .setTitle("Actualización 16/02/21")
-  .setThumbnail()
-  .setColor(0x002763)
-  .setDescription("Agregados vehículos exclusivos semanal \n\n• Baller 5 \n• Entity XF \n• Penetrator \n• Specter \n• Stockade 3 \n• Tyrus \n• Voltic")
-  .setFooter("PRO PERFORMANCE BOT")
-  .setTimestamp()
-  
-  message.channel.send({ embed: embedDatos });
-  
-});
     
 /////////////////////////ENSAMBLADOR////////////////////////////
 
