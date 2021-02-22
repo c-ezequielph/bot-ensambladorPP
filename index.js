@@ -165,6 +165,10 @@ client.on('message', msg => {
   if (msg.content === '!zombieb') {
     msg.reply('⚙️ Zombieb ($16.000) ⚙️\n\t\t\t500 Hierro - 375 Plastico - 250 Vídrio');
   }
+
+  if (msg.content === '!sanctus') {
+    msg.reply('⚙️ Sanctus ($22.000) ⚙️\n\t\t\t500 Hierro - 375 Plastico - 250 Vídrio');
+  }
 });
 
 //SEDAN//
@@ -801,6 +805,10 @@ client.on('message', msg => {
   if (msg.content === '!specter') {
     msg.reply('⚙️ Specter ($320.000) ⚙️\n\t\t\t6500 Hierro - 4334 Plastico - 3250 Vídrio');
   }
+    
+  if (msg.content === '!deveste') {
+    msg.reply('⚙️ Deveste ($1.500.000) ⚙️\n\t\t\t7000 Hierro - 4666 Plastico - 3500 Vídrio');
+  }
   
 });
 
@@ -886,7 +894,17 @@ client.on('message', msg => {
   if (msg.content === '!tornado5') {
     msg.reply('⚙️ Tornado 5 ($10.000) ⚙️\n\t\t\t4500 Hierro - 1500 Plastico - 1125 Vídrio');
   }
+    
+   if (msg.content === '!stingergt') {
+    msg.reply('⚙️ Stinger GT ($310.000) ⚙️\n\t\t\t3500 Hierro - 1167 Plastico - 675 Vídrio');
+  }
 
+//OPEN WHEEL    
+    
+   if (msg.content === '!openwheel1') {
+    msg.reply('⚙️ Open Wheel 1 ($200.000) ⚙️\n\t\t\t8000 Hierro - 2567 Plastico - 2000 Vídrio');
+  }
+    
 });
 
 //SUPERDEPORTIVO
@@ -971,7 +989,19 @@ client.on('message', msg => {
    if (msg.content === '!voltic') {
     msg.reply('⚙️ Voltic ($500.000) ⚙️\n\t\t\t21000 Hierro - 10500 Plastico - 7000 Vídrio');
   }
-  
+
+   if (msg.content === '!gp1') {
+    msg.reply('⚙️ GP 1 ($1.000.000) ⚙️\n\t\t\t21000 Hierro - 10500 Plastico - 7000 Vídrio');
+  }    
+
+   if (msg.content === '!reaper') {
+    msg.reply('⚙️ Reaper ($2.600.000) ⚙️\n\t\t\t20000 Hierro - 10000 Plastico - 6666 Vídrio');
+  }   
+    
+   if (msg.content === '!italirsx') {
+    msg.reply('⚙️ Itali RSX ($500.000) ⚙️\n\t\t\t20000 Hierro - 10000 Plastico - 6666 Vídrio');
+  }   
+    
 });
 
 //OFF-ROAD
