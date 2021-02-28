@@ -824,7 +824,7 @@ client.on('message', msg => {
   }
   
   if (msg.content === '!flashgt') {
-    msg.reply('⚙️ Schlagen ($380.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
+    msg.reply('⚙️ Flash GT ($380.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
   }
   
 });
