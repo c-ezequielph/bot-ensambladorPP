@@ -613,6 +613,11 @@ client.on('message', msg => {
   if (msg.content === '!yosemite') {
     msg.reply('⚙️ Yosemite ($12.000) ⚙️\n\t\t\t2500 Hierro - 2500 Plastico - 2500 Vídrio');
   }
+    
+  if (msg.content === '!yosemite3') {
+    msg.reply('⚙️ Yosemite 3 ($50.000) ⚙️\n\t\t\t2500 Hierro - 2500 Plastico - 2500 Vídrio');
+  }
+    
 });
 
 //DEPORTIVOS
@@ -660,6 +665,10 @@ client.on('message', msg => {
 
   if (msg.content === '!comet4') {
     msg.reply('⚙️ Comet 4 ($35.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
+  }
+    
+   if (msg.content === '!comet5') {
+    msg.reply('⚙️ Comet 5 ($70.000) ⚙️\n\t\t\t6500 Hierro - 4334 Plastico - 3250 Vídrio');
   }
 
   if (msg.content === '!coquette') {
@@ -808,6 +817,14 @@ client.on('message', msg => {
     
   if (msg.content === '!deveste') {
     msg.reply('⚙️ Deveste ($1.500.000) ⚙️\n\t\t\t7000 Hierro - 4666 Plastico - 3500 Vídrio');
+  }
+  
+  if (msg.content === '!schlagen') {
+    msg.reply('⚙️ Schlagen ($380.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
+  }
+  
+  if (msg.content === '!flashgt') {
+    msg.reply('⚙️ Schlagen ($380.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
   }
   
 });
@@ -1000,7 +1017,11 @@ client.on('message', msg => {
     
    if (msg.content === '!italirsx') {
     msg.reply('⚙️ Itali RSX ($500.000) ⚙️\n\t\t\t20000 Hierro - 10000 Plastico - 6666 Vídrio');
-  }   
+  }
+    
+   if (msg.content === '!osiris') {
+    msg.reply('⚙️ Osiris ($1.400.000) ⚙️\n\t\t\t20000 Hierro - 10000 Plastico - 6666 Vídrio');
+  } 
     
 });
 
@@ -1277,6 +1298,10 @@ client.on('message', msg => {
   
   if (msg.content === '!stockade3') {
     msg.reply('⚙️ Stockade 3 ($60.000) ⚙️\n\t\t\t8000 Hierro - 2667 Plastico - 2000 Vídrio');
+  }
+    
+  if (msg.content === '!stockade') {
+    msg.reply('⚙️ Stockade ($60.000) ⚙️\n\t\t\t8000 Hierro - 2667 Plastico - 2000 Vídrio');
   }
   
 });
