@@ -1472,7 +1472,7 @@ client.on('message', msg => {
     msg.reply('⚙️ Volatus ($4.100.000) ⚙️\n\t\t\t11500 Hierro - 3833 Plastico - 2875 Vídrio');
   }
     
-  if (msg.content === '!annihilatorstealth') {
+  if (msg.content === '!annihilator2') {
     msg.reply('⚙️ Annihilator Stealth ($50.000) ⚙️\n\t\t\t13500 Hierro - 4500 Plastico - 3375 Vídrio');
   }
     
