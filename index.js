@@ -113,6 +113,10 @@ client.on('message', msg => {
   if (msg.content === '!manchez') {
     msg.reply('⚙️ Manchez ($15.000) ⚙️\n\t\t\t500 Hierro - 375 Plastico - 250 Vídrio');
   }
+    
+  if (msg.content === '!manchez2') {
+    msg.reply('⚙️ Manchez 2 ($12.000) ⚙️\n\t\t\t500 Hierro - 375 Plastico - 250 Vídrio');
+  }
 
   if (msg.content === '!nemesis') {
     msg.reply('⚙️ Nemesis ($15.000) ⚙️\n\t\t\t500 Hierro - 375 Plastico - 250 Vídrio');
@@ -326,9 +330,18 @@ client.on('message', msg => {
     msg.reply('⚙️ Rhapsody ($11.000) ⚙️\n\t\t\t292 Hierro - 100 Plastico - 70 Vídrio');
   }
   
+   if (msg.content === '!weevil') {
+    msg.reply('⚙️ BF Weevil ($150.000) ⚙️\n\t\t\t292 Hierro - 100 Plastico - 70 Vídrio');
+  }
+  
   if (msg.content === '!club') {
     msg.reply('⚙️ Club ($20.000) ⚙️\n\t\t\t208 Hierro - 71 Plastico - 50 Vídrio');
   }
+
+  if (msg.content === '!brioso300') {
+    msg.reply('⚙️ Brioso 300 ($30.000) ⚙️\n\t\t\t208 Hierro - 71 Plastico - 50 Vídrio');
+  }
+    
 });
 
 //COUPE
@@ -810,6 +823,14 @@ client.on('message', msg => {
   if (msg.content === '!verlierer2') {
     msg.reply('⚙️ Verlierer 2 ($250.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
   }
+    
+   if (msg.content === '!veto') {
+    msg.reply('⚙️ Veto ($110.000) ⚙️\n\t\t\t4500 Hierro - 3000 Plastico - 2250 Vídrio');
+  }
+    
+   if (msg.content === '!veto2') {
+    msg.reply('⚙️ Veto 2 ($110.000) ⚙️\n\t\t\t5500 Hierro - 3666 Plastico - 2750 Vídrio');
+  }
   
   if (msg.content === '!specter') {
     msg.reply('⚙️ Specter ($320.000) ⚙️\n\t\t\t6500 Hierro - 4334 Plastico - 3250 Vídrio');
@@ -914,6 +935,10 @@ client.on('message', msg => {
     
    if (msg.content === '!stingergt') {
     msg.reply('⚙️ Stinger GT ($310.000) ⚙️\n\t\t\t3500 Hierro - 1167 Plastico - 675 Vídrio');
+  }
+    
+   if (msg.content === '!toreador') {
+    msg.reply('⚙️ Toreador ($170.000) ⚙️\n\t\t\t3500 Hierro - 1167 Plastico - 875 Vídrio');
   }
 
 //OPEN WHEEL    
@@ -1111,6 +1136,15 @@ client.on('message', msg => {
   if (msg.content === '!trophytruck2') {
     msg.reply('⚙️ Trophytruck 2 ($52.000) ⚙️\n\t\t\t5500 Hierro - 1833 Plastico - 1375 Vídrio');
   }
+    
+  if (msg.content === '!verus') {
+    msg.reply('⚙️ Verus ($70.000) ⚙️\n\t\t\t4000 Hierro - 1333 Plastico - 1000 Vídrio');
+  }
+    
+  if (msg.content === '!winky') {
+    msg.reply('⚙️ Winky ($150.000) ⚙️\n\t\t\t5500 Hierro - 1833 Plastico - 1375 Vídrio');
+  }
+    
 });
 
 //VANS
@@ -1437,6 +1471,11 @@ client.on('message', msg => {
   if (msg.content === '!volatus') {
     msg.reply('⚙️ Volatus ($4.100.000) ⚙️\n\t\t\t11500 Hierro - 3833 Plastico - 2875 Vídrio');
   }
+    
+  if (msg.content === '!annihilatorstealth') {
+    msg.reply('⚙️ Annihilator Stealth ($50.000) ⚙️\n\t\t\t13500 Hierro - 4500 Plastico - 3375 Vídrio');
+  }
+    
 });
 
 //AVIONES
@@ -1453,6 +1492,11 @@ client.on('message', msg => {
   if (msg.content === '!vestra') {
     msg.reply('⚙️ Vestra ($700.000) ⚙️\n\t\t\t14500 Hierro - 4833 Plastico - 3625 Vídrio');
   }
+    
+  if (msg.content === '!alkonost') {
+    msg.reply('⚙️ R0-86 Alkonost ($50.000) ⚙️\n\t\t\t38500 Hierro - 12833 Plastico - 9625 Vídrio');
+  }
+    
 });
 
 //UTILIDAD
@@ -1554,6 +1598,11 @@ client.on('message', msg => {
   if (msg.content === '!tug') {
     msg.reply('⚙️ Tug ($1.000.000) ⚙️\n\t\t\t19000 Hierro - 6333 Plastico - 4750 Vídrio');
   }
+    
+  if (msg.content === '!longfin') {
+    msg.reply('⚙️ Longfin ($22.000) ⚙️\n\t\t\t10000 Hierro - 3333 Plastico - 2500 Vídrio');
+  }
+    
 });
 
 ////////////////////////FIN ENSAMBLADOR/////////////////////////
