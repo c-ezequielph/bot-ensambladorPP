@@ -338,7 +338,7 @@ client.on('message', msg => {
     msg.reply('⚙️ Club ($20.000) ⚙️\n\t\t\t208 Hierro - 71 Plastico - 50 Vídrio');
   }
 
-  if (msg.content === '!brioso300') {
+  if (msg.content === '!brioso2') {
     msg.reply('⚙️ Brioso 300 ($30.000) ⚙️\n\t\t\t208 Hierro - 71 Plastico - 50 Vídrio');
   }
     
