@@ -857,10 +857,7 @@ client.on('message', msg => {
   if (msg.content === '!flashgt') {
     msg.reply('⚙️ Flash GT ($380.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
   }
-  
-  if (msg.content === '!issi7') {
-    msg.reply('⚙️ Issi 7 ($15.000) ⚙️\n\t\t\t292 Hierro - 100 Plastico - 70 Vídrio');
-  }
+ 
     
 });
 
