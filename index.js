@@ -293,6 +293,11 @@ client.on('message', msg => {
   if (msg.content === '!washington') {
     msg.reply('⚙️ Washington ($11.000) ⚙️\n\t\t\t233 Hierro - 140 Plastico - 117 Vídrio');
   }
+    
+  if (msg.content === '!stretch') {
+    msg.reply('⚙️ Stretch ($23.000) ⚙️\n\t\t\t367 Hierro - 220 Plastico - 183 Vídrio');
+  }
+    
 });
 
 //COMPACTOS
@@ -472,7 +477,7 @@ client.on('message', msg => {
   }
 
   if (msg.content === '!hotknife') {
-    msg.reply('⚙️ Gauntlet 3 ($15.000) ⚙️\n\t\t\t2250 Hierro - 1125 Plastico - 1125 Vídrio');
+    msg.reply('⚙️ Hotknife ($15.000) ⚙️\n\t\t\t2250 Hierro - 1125 Plastico - 1125 Vídrio');
   }
 
   if (msg.content === '!impaler') {
@@ -630,6 +635,11 @@ client.on('message', msg => {
   if (msg.content === '!yosemite3') {
     msg.reply('⚙️ Yosemite 3 ($50.000) ⚙️\n\t\t\t2500 Hierro - 2500 Plastico - 2500 Vídrio');
   }
+
+  if (msg.content === '!gauntlet5') {
+    msg.reply('⚙️ Gauntlet 5 ($50.000) ⚙️\n\t\t\t2750 Hierro - 2750 Plastico - 2750 Vídrio');
+  }
+
     
 });
 
@@ -848,6 +858,10 @@ client.on('message', msg => {
     msg.reply('⚙️ Flash GT ($380.000) ⚙️\n\t\t\t6000 Hierro - 4000 Plastico - 3000 Vídrio');
   }
   
+  if (msg.content === '!issi7') {
+    msg.reply('⚙️ Issi 7 ($15.000) ⚙️\n\t\t\t292 Hierro - 100 Plastico - 70 Vídrio');
+  }
+    
 });
 
 //DEPORTIVOS CLÁSICOS
@@ -1144,7 +1158,11 @@ client.on('message', msg => {
   if (msg.content === '!winky') {
     msg.reply('⚙️ Winky ($150.000) ⚙️\n\t\t\t5500 Hierro - 1833 Plastico - 1375 Vídrio');
   }
-    
+
+  if (msg.content === '!brutus') {
+    msg.reply('⚙️ Brutus ($17.000) ⚙️\n\t\t\t6500 Hierro - 2167 Plastico - 1625 Vídrio');
+  }
+  
 });
 
 //VANS
@@ -1474,6 +1492,14 @@ client.on('message', msg => {
     
   if (msg.content === '!annihilator2') {
     msg.reply('⚙️ Annihilator Stealth ($50.000) ⚙️\n\t\t\t13500 Hierro - 4500 Plastico - 3375 Vídrio');
+  }
+    
+  if (msg.content === '!supervolito2') {
+    msg.reply('⚙️ Supervolito 2 ($3.000.000) ⚙️\n\t\t\t9500 Hierro - 3167 Plastico - 2375 Vídrio');
+  }
+    
+  if (msg.content === '!seasparrow2') {
+    msg.reply('⚙️ Seasparrow 2 ($800.000) ⚙️\n\t\t\t11000 Hierro - 3667 Plastico - 2750 Vídrio');
   }
     
 });
